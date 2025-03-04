@@ -1,0 +1,171 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/009/378/895/original/world-tourism-day-background-free-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.login-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f48d06;
+  text-align: center;
+}
+
+.login-form-back {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.login-container label {
+  font-size: 1rem;
+  align-self: flex-start;
+  color: #ed7e06;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.signup {
+  color: #f48d06;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ed7e06;
+}
+
+.signup button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ed7e06;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.signup button:hover {
+  background-color: #d96d05;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .login-container h2 {
+    font-size: 2rem;
+  }
+
+  .login-form-back {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .login-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .login-form-back {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.login-container input,
+.login-container select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container input:focus,
+.login-container select:focus {
+  border-color: #f48d06;
+  box-shadow: inset 0 6px 8px rgba(0, 0, 0, 0.3), 0 0 10px rgba(244, 141, 6, 0.7);
+  outline: none;
+}
+
+.login-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+}
+
+.login-container select {
+  appearance: none;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/009/378/895/original/world-tourism-day-background-free-vector.jpg'); /* Travel-themed background image */
+
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+}
+
+.signup button,
+.login-container button {
+  margin-top: 20px;
+  width: 100%;
+}
+.option option{
+  color: #0f0f0f;
+}

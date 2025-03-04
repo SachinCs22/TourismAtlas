@@ -1,0 +1,71 @@
+/* src/styles/BookYourGuide.css */
+
+.book-your-guide {
+    padding: 20px;
+    background: linear-gradient(to right, #f7f9fc, #e0f7fa); /* Light background gradient */
+    min-height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/378/895/original/world-tourism-day-background-free-vector.jpg'); /* Travel-themed background image */
+
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .guides-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the guide cards */
+  }
+  
+  .guide-card {
+    background: #a8d5ba; /* Soft mint green */
+    border: 2px solid #4fc3f7; /* Brighter border color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+}
+
+
+
+
+  /* Hover effect for guide card */
+  .guide-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+    border-color: #29b6f6; /* Change border color on hover */
+  }
+  
+  .guide-card h3 {
+    margin-top: 0;
+    color: #00796b; /* Dark teal color */
+  }
+  
+  .guide-card p {
+    color: #546e7a; /* Muted text color */
+  }
+  
+  .guide-card button {
+    background: linear-gradient(to right, #42a5f5, #1e88e5); /* Gradient button */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth button transitions */
+    box-shadow: 0px 5px 10px rgba(33, 150, 243, 0.3); /* Button shadow */
+  }
+  
+  /* Button hover effect */
+  .guide-card button:hover {
+    background: linear-gradient(to right, #64b5f6, #2196f3); /* Brighter gradient on hover */
+    box-shadow: 0px 8px 15px rgba(33, 150, 243, 0.5); /* Enhanced shadow on hover */
+  }
+  
+  .guide-card button:disabled {
+    background-color: #cfd8dc; /* Softer color for disabled button */
+    cursor: not-allowed;
+    box-shadow: none;
+  }

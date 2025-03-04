@@ -1,0 +1,67 @@
+/* src/App.css */
+.bookings-for-guide {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.bookings-for-guide-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.bookings-for-guide-loading {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.bookings-for-guide-error {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+}
+
+.bookings-for-guide-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bookings-for-guide-table-header {
+    padding: 12px;
+    text-align: left;
+    background: linear-gradient(90deg, #2196f3, #64b5f6);
+    color: white;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+.bookings-for-guide-table-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.bookings-for-guide-table-row:nth-child(odd) {
+    background-color: #e3f2fd;
+}
+
+.bookings-for-guide-table-row:hover {
+    background-color: #bbdefb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bookings-for-guide-table-cell {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #555;
+}
+
+.bookings-for-guide-no-bookings {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}

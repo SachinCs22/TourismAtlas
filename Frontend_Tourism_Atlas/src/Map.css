@@ -1,0 +1,69 @@
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000vh;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+  }
+  
+  .cell.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  .cell.destination {
+    background-color: green;
+    color: white;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   
+.leaflet-routing-alt{
+  height: 10000px;
+}
+.leaflet-control-container {
+  height: 10000vh;
+}
+.leaflet-routing-alternatives-container{
+  height: 10000px;
+}
+.navbar{
+  background-color: rgb(135, 137, 138);
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  background-color:black;
+  /* background: none; */
+  color: white;
+  border: none;
+}

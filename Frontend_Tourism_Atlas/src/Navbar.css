@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #007bff; 
+    padding: 15px 30px;
+    color: white; /* Text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-links {
+    list-style: none; 
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .navbar-links li {
+    cursor: pointer; /* Pointer cursor for links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .navbar-links li:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

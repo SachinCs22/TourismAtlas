@@ -1,0 +1,106 @@
+.container-signup-guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/378/895/original/world-tourism-day-background-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  
+  .heading-signup-guide {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-signup-guide {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  
+  .label-signup-guide-name,
+  .label-signup-guide-email,
+  .label-signup-guide-password,
+  .label-signup-guide-phone,
+  .label-signup-guide-location,
+  .label-signup-guide-about-me,
+  .label-signup-guide-charges {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .input-signup-guide-name,
+  .input-signup-guide-email,
+  .input-signup-guide-password,
+  .input-signup-guide-phone,
+  .input-signup-guide-location,
+  .input-signup-guide-charges {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-signup-guide-name:focus,
+  .input-signup-guide-email:focus,
+  .input-signup-guide-password:focus,
+  .input-signup-guide-phone:focus,
+  .input-signup-guide-location:focus,
+  .input-signup-guide-charges:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  .textarea-signup-guide-about-me {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+  }
+  
+  .textarea-signup-guide-about-me:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  .button-signup-guide-submit {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .button-signup-guide-submit:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 400px) {
+    .container-signup-guide {
+      width: 90%;
+      padding: 30px 20px;
+    }
+  
+    .heading-signup-guide {
+      font-size: 2rem;
+    }
+  }
+  

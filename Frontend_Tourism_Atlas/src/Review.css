@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, rgba(184, 233, 148, 0.6), rgba(246, 229, 141, 0.6));
+    color: #2c3e50;
+    line-height: 1.4;
+    padding: 5px;
+  }
+  
+  .reviews-container {
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 8px;
+    background: rgba(255, 237, 204, 0.8);
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffc048;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #e17055;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .review-item {
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    border: 1px solid #74b9ff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .review-item:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .review-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-bottom: 2px solid #fab1a0;
+  }
+  
+  .review-details {
+    padding: 6px;
+    text-align: center;
+  }
+  
+  .review-item h3 {
+    color: #0984e3;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+  
+  .review-item p {
+    color: #636e72;
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+  
+  button {
+    background: linear-gradient(to right, rgba(116, 185, 255, 0.8), rgba(85, 239, 196, 0.8)); /* Transparent button background */
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 6px;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, rgba(9, 132, 227, 0.8), rgba(0, 206, 201, 0.8));
+    transform: translateY(-1px);
+  }
+  
+  @media (max-width: 768px) {
+    .reviews-container {
+      max-width: 90%;
+      padding: 8px;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .review-item {
+      margin-bottom: 6px;
+    }
+  
+    .review-image {
+      height: 100px;
+    }
+  
+    .review-item h3 {
+      font-size: 0.8rem;
+    }
+  
+    .review-item p {
+      font-size: 0.65rem;
+    }
+  
+    button {
+      font-size: 0.6rem;
+      padding: 4px 6px;
+    }
+  }
+  
